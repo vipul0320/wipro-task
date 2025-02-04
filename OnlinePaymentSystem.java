@@ -1,4 +1,9 @@
-/* */
+/*Design an Online Payment System with an abstract class PaymentMethod containing an abstract method 
+processPayment(). Create two derived classes: CreditCard and PayPal, each implementing the processPayment() 
+method differently (for example, one might charge a fee, and the other might not). Create a method 
+processTransaction(PaymentMethod paymentMethod) that accepts a PaymentMethod object and processes the payment 
+by calling processPayment(). Demonstrate polymorphism by using both CreditCard and PayPal objects in the 
+transaction processing system. */
 
 
 abstract class PaymentMethod {

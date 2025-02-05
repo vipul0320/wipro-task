@@ -38,11 +38,11 @@ public class StreamsAPI {
     public static void main(String[] args) {
 
         List<Employee> employees = Arrays.asList(
-            new Employee("John", 28, 50000),
-            new Employee("Alice", 35, 70000),
-            new Employee("Bob", 32, 65000),
-            new Employee("Diana", 29, 48000),
-            new Employee("Eve", 40, 80000)
+            new Employee("A", 28, 50000),
+            new Employee("B", 35, 70000),
+            new Employee("C", 32, 65000),
+            new Employee("D", 29, 48000),
+            new Employee("E", 40, 80000)
         );
 
         List<String> namesOver30 = employees.stream()

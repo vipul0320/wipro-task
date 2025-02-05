@@ -14,7 +14,7 @@ interface StringProcessor {
 
 public class LambdaExp {
     public static void main(String[] args) {
-        List<String> names = Arrays.asList("cricket", "football", "tennis", "basketball", "golf");
+        List<String> names = Arrays.asList("cricket", "football", "tennis", "badminton", "golf");
 
         names.sort((s1, s2) -> s2.compareTo(s1));
 
